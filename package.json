@@ -7,7 +7,7 @@
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "scss": "node-sass -o /css /css"
+    "scss": "node-sass -o css/ css/"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "homepage": "https://bitbucket.org/navidfathi98/courseraassignmentone#readme",
   "devDependencies": {
     "lite-server": "^2.5.4",
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.13.0"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
